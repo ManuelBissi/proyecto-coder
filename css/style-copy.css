@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html,
+nav {
+    font-family: 'Source Code Pro', monospace;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/*--------------Bienvenida----------------*/
+
+.img-diseneo {
+    border-radius: 50%;
+    border: solid #6223e3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.723);
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.img-diseneo2 {
+    
+    border: solid #6223e3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.723);
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.bienvenida {
+    margin-top: 50px;
+    margin-bottom: 200px;
+
+}
+
+.texto-bienvenida {
+    text-align: center;
+}
+
+.linea {
+    border-bottom: #6323e3 solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px #6323e3;
+}
+
+.boton-sobremi {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #6223e3;
+    border: #6223e3 solid;
+    height: 60px;
+}
+
+.boton-sobremi:hover {
+    background-color: #531dc0;
+    border: #6223e3 solid;
+    box-shadow: 0 0 30px #6223e3;
+}
+
+.trabajemos-juntos{
+    font-size: 30px;
+}
+
+/*--------------Proyectos recientes----------------*/
+
+.h2-proyectos {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #6223e3;
+}
+
+.proyectos {
+    background-color: #131313;
+    color: rgb(213, 212, 212);
+
+}
+
+.proyectos {
+    margin-bottom: 30px;
+}
+
+
+
+
+/*--------------Sobre Mi----------------*/
+.text_sobre_mi {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-conoceme {
+    width: 80%;
+    margin: auto;
+    border: solido black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #6223e3;
+    margin-bottom: 100px;
+
+}
+
+.square {
+    background-color: #6223e3;
+    color: white;
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+
+}
+
+/*--------------Seccion proyectos----------------*/
+.proyectos-pc{
+    margin-bottom: 50px;
+}
+.img-diseneo-pc{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo-seccion-proyectos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.linea-proyectos{
+    border-bottom: #6223e3 solid 8px;
+    width: 70px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.boton-proyectos{
+    background-color: #6223e3;
+    border: none;
+}
+
+.boton-proyectos:hover{
+    background-color: #561bcb;
+}
+
+
+
+
+
+
+/*--------------Media, como minimo 768----------------*/
+@media screen and (min-width:768px) {
+
+    /*--------------Bienvenida----------------*/
+    .texto-bienvenida {
+        text-align: justify;
+    }
+
+    nav {
+        background-color: whitesmoke;
+    }
+
+}
+
+/*formulario---------------------------------*/
+.formulario {
+    max-width: 900px;
+    margin: 50px auto;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.formulario h2 {
+    color: #6223e3;
+}
+
+.formulario p {
+    color: #666;
+}
+
+.formulario form {
+    margin-top: 100px;
+
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario button {
+    background-color: #6223e3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #431b94;
+}
+
+
+/*--------------Footer----------------*/
+footer {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}

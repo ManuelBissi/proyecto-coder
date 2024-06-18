@@ -1,0 +1,72 @@
+/*--------------Bienvenida----------------*/
+
+.img-diseneo {
+    border-radius: 50%;
+    border: solid #6223e3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.723);
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.img-diseneo2 {
+    border: solid #6223e3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.723);
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.bienvenida {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.texto-bienvenida {
+    text-align: center;
+}
+
+.linea {
+    border-bottom: #6323e3 solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px #6323e3;
+}
+
+.boton-sobremi {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #6223e3;
+    border: #6223e3 solid;
+    height: 60px;
+    
+    &:hover {
+background-color: #531dc0;
+border: #6223e3 solid;
+box-shadow: 0 0 30px #6223e3;
+    }
+}
+
+.trabajemos-juntos {
+    font-size: 30px;
+}
+
+/*--------------Proyectos recientes----------------*/
+
+.h2-proyectos {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #6223e3;
+}
+
+.proyectos {
+    background-color: #131313;
+    color: rgb(213, 212, 212);
+    margin-bottom: 30px;
+}
+
+

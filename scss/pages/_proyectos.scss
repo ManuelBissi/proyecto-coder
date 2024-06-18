@@ -1,0 +1,31 @@
+/*--------------Seccion proyectos----------------*/
+.proyectos-pc {
+    margin-bottom: 50px;
+}
+
+.img-diseneo-pc {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo-seccion-proyectos {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.linea-proyectos {
+    border-bottom: #6223e3 solid 8px;
+    width: 70px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.boton-proyectos {
+    background-color: #6223e3;
+    border: none;
+
+    &:hover {
+        background-color: #561bcb;
+    }
+}

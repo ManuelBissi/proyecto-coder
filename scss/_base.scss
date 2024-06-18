@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html,
+nav {
+    font-family: 'Source Code Pro', monospace;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+
+/*--------------Media, como minimo 768----------------*/
+@media screen and (min-width:768px) {
+
+    /*--------------Bienvenida----------------*/
+    .texto-bienvenida {
+        text-align: justify;
+    }
+
+    nav {
+        background-color: whitesmoke;
+    }
+
+}

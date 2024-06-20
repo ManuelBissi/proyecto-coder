@@ -1,28 +1,35 @@
-/*--------------Sobre Mi----------------*/
+// Variables
+$primary-color: #6223e3;
+$container-width: 80%;
+$margin-top-bottom: 100px;
+
+// Mixin para estilos comunes
+@mixin common-styles {
+  width: $container-width;
+  margin: auto;
+}
+
+// Estilos SASS
 .text_sobre_mi {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  @include common-styles;
+  text-align: center;
+  margin-top: $margin-top-bottom;
+  margin-bottom: $margin-top-bottom;
 }
 
 .container-conoceme {
-    width: 80%;
-    margin: auto;
-    border: solido black;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px #6223e3;
-    margin-bottom: 100px;
+  @include common-styles;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px lighten($primary-color, 20%);
+  margin-bottom: $margin-top-bottom;
 
-}
-
-.square {
-    background-color: #6223e3;
+  .square {
+    background-color: $primary-color;
     color: white;
     text-align: center;
     width: 25%;
     border-radius: 5px;
-
+  }
 }

@@ -1,0 +1,20 @@
+.recuadro {
+    border: solid rgba(0, 0, 0, 0.398);
+    border-radius: 5px;
+    animation: shadow-pulse 2s infinite;
+    box-shadow: 0 4px 8px 0 #6223e3, 0 6px 20px 0 #6223e3;
+}
+
+/* Definir la animación para el box-shadow */
+@keyframes shadow-pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0px #6223e3;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #6223e3;
+    }
+}
+

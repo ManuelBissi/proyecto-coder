@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Playfair+Display&
 family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -59,10 +60,10 @@ family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="styles
         <h2 class="servicios-titulo text-center mt-5 mb-3 ">Servicios</h2>
         <div class="linea-proyectos"></div>
 
-        <section class="contenedor-servicios-front">
+        <section data-aos="fade-up-right" class="contenedor-servicios-front">
             <div class="row">
-                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start mb-5">
-            <h3 class="titulo-sub">Desarrollo Web Frontend</h3> <img src="./img/front.png" alt="Ícono" width="50"
+                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start mb-5 recuadro">
+            <h3 class="titulo-sub mb-3 mt-3">Desarrollo Web Frontend</h3> <img class="mb-3" src="./img/front.png" alt="Ícono" width="50"
                 height="50" class="icono_hola">
 
             <p>Como desarrollador web frontend, ofrezco soluciones creativas y funcionales para dar vida a tus
@@ -84,10 +85,10 @@ family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="styles
     
 
 
-        <section class="diseneo">
+        <section data-aos="fade-up-left" class="diseneo">
             <div class="row">
-                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start mb-5">
-            <h3 class="titulo-sub">Diseño Web</h3> <img src="./img/dise.png" alt="Ícono" width="50" height="50"
+                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start mb-5 recuadro">
+            <h3 class="titulo-sub mb-3 mt-3">Diseño Web</h3> <img class="mb-3" src="./img/dise.png" alt="Ícono" width="50" height="50"
                 class="icono_hola">
 
             <p>Mi experiencia en diseño web me permite combinar funcionalidad y estética para crear experiencias de
@@ -104,10 +105,10 @@ family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="styles
             </div>
         </section>
 
-        <section class="manager">
+        <section data-aos="fade-up-right" class="manager">
             <div class="row">
-                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start">
-            <h3 class="titulo-sub">Community Management</h3><img src="./img/disenoe.png" alt="Ícono" width="50"
+                <div class="col-md-8 m-auto text-center col-lg-9 text-lg-start recuadro">
+            <h3 class="titulo-sub mb-3 mt-3">Community Management</h3><img class="mb-3" src="./img/disenoe.png" alt="Ícono" width="50"
                 height="50" class="icono_hola">
 
             <p>Como Community Manager, puedo ayudarte a construir y gestionar una sólida presencia en línea para tu
@@ -159,6 +160,12 @@ family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="styles
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
 </body>
 
 </html>
